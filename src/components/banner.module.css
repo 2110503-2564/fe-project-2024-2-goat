@@ -1,0 +1,46 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    cursor: pointer;
+  }
+  
+  .image {
+    object-fit: cover;
+    filter: brightness(70%);
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  .bannerText {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .headline {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  .subText {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  
